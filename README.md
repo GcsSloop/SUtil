@@ -27,7 +27,7 @@
 [com.sloop.io.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/io/utils) | [CloseUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/io/utils/CloseUtils.java) | 关闭函数
  | [FileUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/io/utils/FileUtils.java) | 文件夹工具
  | [StreamUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/io/utils/StreamUtils.java) | 数据流工具
-[com.sloop.net.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/net/utils) | [WiFiUtil](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/net/utils/WiFiUtil.java) | WIFI相关工具
+[com.sloop.net.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/net/utils) | [WiFiUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/net/utils/WiFiUtils.java) | WIFI相关工具
 [com.sloop.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/utils) | [ActivityUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/ActivityUtils.java) | Activity相关工具
  | [AppUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/AppUtils.java) | Application相关工具
  | [DataCheck](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/DataCheck.java) | 数据检查
