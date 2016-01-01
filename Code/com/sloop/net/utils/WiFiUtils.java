@@ -14,7 +14,7 @@ import android.net.NetworkInfo;
  * <li><a href="https://github.com/GcsSloop" target="_blank">作者GitHub</a>   </li>
  * </ul>
  */
-public class WiFiUtil {
+public class WiFiUtils {
 
     //判断是否连接WIFI
     public static boolean isWifiConnected(Context context) {
