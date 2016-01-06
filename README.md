@@ -2,7 +2,7 @@
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![Maven Central](https://img.shields.io/bintray/v/gcssloop/maven/sutil.svg)](https://bintray.com/gcssloop/maven/sutil/view)
 ## Sloop的工具箱
-### 作者微博: [@安卓攻城师sloop](http://weibo.com/5459430586)
+### 作者微博: [@攻城师sloop](http://weibo.com/5459430586)
 
 # 如何添加
 ### Gradle
