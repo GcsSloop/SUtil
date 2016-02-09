@@ -14,7 +14,7 @@
 #### 2.在Module目录下的build.gradle中添加依赖
 ```
     //sutil
-    compile 'com.sloop.utils:sutil:1.0.4'
+    compile 'com.sloop.utils:sutil:1.0.5'
 ```
 
 # 内容说明
@@ -37,4 +37,14 @@
  | [ToastUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/ToastUtils.java) | Toast工具
 [com.sloop.view.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/view/utils) | [DensityUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/view/utils/DensityUtils.java) | 屏幕密度相关工具
  | [ViewUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/view/utils/ViewUtils.java) | 视图相关工具
+
+## 版本更新：
+版本号 | 更新内容
+   --- | ---
+v1.0.5 | 添加动画监听器
+v1.0.4 | 添加数学工具和Toast工具
+v1.0.3 | 上传脚本出现问题，该版本不可用
+v1.0.2 | 上传脚本出现问题，该版本不可用
+v1.0.1 | 整理基本的常用工具类
+v1.0.0 | 上传脚本出现问题，该版本不可用
 
