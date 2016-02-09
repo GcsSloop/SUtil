@@ -31,6 +31,8 @@
 [com.sloop.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/utils) | [ActivityUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/ActivityUtils.java) | Activity相关工具
  | [AppUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/AppUtils.java) | Application相关工具
  | [DataCheck](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/DataCheck.java) | 数据检查
+ | [MathUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/MathUtils.java) | 数学工具
+ | [ToastUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/utils/ToastUtils.java) | Toast工具
 [com.sloop.view.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/view/utils) | [DensityUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/view/utils/DensityUtils.java) | 屏幕密度相关工具
  | [ViewUtils](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/view/utils/ViewUtils.java) | 视图相关工具
 
