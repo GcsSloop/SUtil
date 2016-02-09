@@ -7,14 +7,36 @@
 # 如何添加
 ### Gradle
 #### 1.在Project的build.gradle 中添加仓库地址
-```
+``` gradle
  //sloop的仓库地址
   maven {url "http://dl.bintray.com/gcssloop/maven"}
 ```
-#### 2.在Module目录下的build.gradle中添加依赖
+
+示例：
+``` gradle
+allprojects {
+    repositories {
+        jcenter()
+        //sloop的仓库地址
+        maven {url "http://dl.bintray.com/gcssloop/maven"}
+    }
+}
 ```
+#### 2.在Module目录下的build.gradle中添加依赖
+```gradle
     //sutil
     compile 'com.sloop.utils:sutil:1.0.5'
+```
+
+示例:
+ ``` gradle
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.0.1'
+    //sutil
+    compile 'com.sloop.utils:sutil:1.0.5'
+}
 ```
 
 # 内容说明
