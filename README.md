@@ -14,7 +14,7 @@
 #### 2.在Module目录下的build.gradle中添加依赖
 ```
     //sutil
-    compile 'com.sloop.utils:sutil:1.0.1'
+    compile 'com.sloop.utils:sutil:1.0.4'
 ```
 
 # 内容说明
