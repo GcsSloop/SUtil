@@ -62,7 +62,8 @@ dependencies {
 
 ## 版本更新：
 版本号 | 更新内容
-   --- | ---
+:-----:| ------------
+v1.0.1 | 降低minSdkVersion,提高兼容性
 v1.0.0 | 从jCenter迁移到JitPack,以前版本作废
 
 
