@@ -1,6 +1,6 @@
 # SUtils
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![JitPack](https://img.shields.io/badge/JitPack-v1.0.0-brightgreen.svg)](https://jitpack.io/#GcsSloop/SUtil)
+[![JitPack](https://img.shields.io/badge/JitPack-v1.0.1-brightgreen.svg)](https://jitpack.io/#GcsSloop/SUtil)
 ## Sloop的工具箱
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
 
@@ -25,7 +25,7 @@ allprojects {
 #### 2.在Module目录下的build.gradle中添加依赖
 ```gradle
     //sutil
-    compile 'com.github.GcsSloop:SUtil:v1.0.0'
+    compile 'com.github.GcsSloop:SUtil:v1.0.1'
 ```
 
 示例:
@@ -35,7 +35,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.1'
     //sutil
-    compile 'com.github.GcsSloop:SUtil:v1.0.0'
+    compile 'com.github.GcsSloop:SUtil:v1.0.1'
 }
 ```
 
