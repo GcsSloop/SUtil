@@ -1,6 +1,7 @@
 # SUtils
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![JitPack](https://img.shields.io/badge/JitPack-v1.0.1-brightgreen.svg)](https://jitpack.io/#GcsSloop/SUtil)
+[![JitPack](https://jitpack.io/v/GcsSloop/SUtil.svg)](https://jitpack.io/#GcsSloop/SUtil)
+
 ## Sloop的工具箱
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
 
