@@ -41,8 +41,9 @@ dependencies {
 ```
 
 # 内容说明
+
  包名 | 工具 | 描述 
- ---  | ---  | ---
+ -----|------| ---
 [com.sloop.adapter.utils](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/adapter/utils) | [CommonAdapter](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/adapter/utils/CommonAdapter.java)| ListView万能适配器
  | [ViewHolder](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/adapter/utils/ViewHolder.java)| ViewHolder
 [com.sloop.animation](https://github.com/GcsSloop/SUtils/tree/master/Code/com/sloop/animation) | [Rotate3dAnimation](https://github.com/GcsSloop/SUtils/blob/master/Code/com/sloop/animation/Rotate3dAnimation.java) | 3D翻转动画
