@@ -1,17 +1,19 @@
 package com.sloop.adapter.utils;
 
 import android.content.Context;
+import android.support.annotation.NonNull;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
  * ListView 的通用适配器
  * Author: Sloop
- * Version: v1.0
+ * Version: v1.1
  * Date: 2015/11/17
  * <ul type="disc">
  * <li><a href="http://www.sloop.icoc.cc"    target="_blank">作者网站</a>      </li>
@@ -23,7 +25,7 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
 
     private LayoutInflater mInflater;
     private Context mContext;
-    private List<T> mDatas;
+    private List<T> mDatas = new ArrayList<>();
     private int mLayoutId;
 
     /**
@@ -31,11 +33,27 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
      * @param datas    数据集
      * @param layoutId 布局ID
      */
-    public CommonAdapter(Context context, List<T> datas, int layoutId) {
+    public CommonAdapter(@NonNull Context context, List<T> datas, @NonNull int layoutId) {
         mInflater = LayoutInflater.from(context);
         this.mContext = context;
-        this.mDatas = datas;
         this.mLayoutId = layoutId;
+        if(datas!=null){
+            this.mDatas = datas;
+        }
+    }
+
+    public void addDatas(List<T> datas){
+        this.mDatas.addAll(datas);
+        notifyDataSetChanged();
+    }
+
+    public void clearDatas(){
+        this.mDatas.clear();
+        notifyDataSetChanged();
+    }
+
+    public T getDataById(int position){
+       return mDatas.get(position);
     }
 
     @Override
@@ -58,7 +76,7 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
         //实例化一个ViewHolder
         ViewHolder holder = ViewHolder.getInstance(mContext, convertView, parent, mLayoutId, position);
         //需要自定义的部分
-        convert(holder, getItem(position));
+        convert(position, holder, getItem(position));
 
         return holder.getConvertView();
     }
@@ -69,6 +87,5 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
      * @param holder ViewHolder
      * @param bean   数据集
      */
-    public abstract void convert(ViewHolder holder, T bean);
+    public abstract void convert(int position, ViewHolder holder, T bean);
 }
-
