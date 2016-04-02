@@ -26,7 +26,7 @@ allprojects {
 #### 2.在Module目录下的build.gradle中添加依赖
 ```gradle
     //sutil
-    compile 'com.github.GcsSloop:SUtil:v1.0.1'
+    compile 'com.github.GcsSloop:SUtil:v1.0.2'
 ```
 
 示例:
@@ -51,9 +51,9 @@ com.sloop.animation     | [Rotate3dAnimation](https://github.com/GcsSloop/SUtil/
                         | [AnimatorListener](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/animation/AnimatorListener.java)   | 属性动画监听器默认实现类  |
 com.sloop.async.utils   | [SHandler](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/async/utils/SHandler.java)                 | 回调函数                  |
 com.sloop.io.utils      | [CloseUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/io/utils/CloseUtils.java)                | 关闭函数                  |
-                        | [FileUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/io/utils/FileUtils.java)                  | 文件夹工具                | 内存卡读写(READ_EXTERNAL_STORAGE, WRITE_EXTERNAL_STORAGE)
+                        | [FileUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/io/utils/FileUtils.java)                  | 文件夹工具                | 存储卡读取(READ_EXTERNAL_STORAGE) <br/> 存储卡写入(WRITE_EXTERNAL_STORAGE)
                         | [StreamUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/io/utils/StreamUtils.java)              | 数据流工具                |
-com.sloop.net.utils     | [NetUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/net/utils/NetUtils.java)                   | 网络相关工具              | 网络访问(INTERNET) 查看网络状态(ACCESS_NETWORK_STATE)
+com.sloop.net.utils     | [NetUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/net/utils/NetUtils.java)                   | 网络相关工具              | 网络访问(INTERNET) <br/> 查看网络状态(ACCESS_NETWORK_STATE)
 com.sloop.utils         | [ActivityUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/utils/ActivityUtils.java)             | Activity相关工具          |
                         | [AppUtils](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/utils/AppUtils.java)                       | Application相关工具       |
                         | [DataCheck](https://github.com/GcsSloop/SUtil/blob/master/library/src/main/java/com/sloop/utils/DataCheck.java)                     | 数据检查                  |
