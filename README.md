@@ -1,4 +1,4 @@
-# <img src="http://ww2.sinaimg.cn/large/005Xtdi2jw1f2jqaxc47fj3074074mxf.jpg" width=48 /> SUtil
+# <img src="http://ww2.sinaimg.cn/large/005Xtdi2jw1f2jqaxc47fj3074074mxf.jpg" width=32 /> SUtil
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 [![JitPack](https://jitpack.io/v/GcsSloop/SUtil.svg)](https://jitpack.io/#GcsSloop/SUtil)
