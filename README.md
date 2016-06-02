@@ -1,7 +1,7 @@
 # <img src="http://ww2.sinaimg.cn/large/005Xtdi2jw1f2jqaxc47fj3074074mxf.jpg" width=32 /> SUtil
 
 [![License](https://img.shields.io/badge/license-Apache%202-green.svg)](https://www.apache.org/licenses/LICENSE-2.0)
-[![JitPack](https://img.shields.io/badge/JitPack-1.0.2-green.svg)](https://jitpack.io/#GcsSloop/SUtil)
+[![JitPack](https://img.shields.io/badge/JitPack-1.0.2-brightgreen.svg)](https://jitpack.io/#GcsSloop/SUtil)
 
 ## Sloop的工具箱
 ### 作者微博: [@GcsSloop](http://weibo.com/GcsSloop)
